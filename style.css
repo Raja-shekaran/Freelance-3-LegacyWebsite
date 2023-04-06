@@ -1,0 +1,227 @@
+/* colors */
+
+:root {
+    --dark-color: #f6f7f9;
+    --light-color: #ffffff; 
+    --red-color: #ff5300;
+     
+}
+* {
+    margin: 0;
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color:white;
+  }
+  .wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    
+  }
+  
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-nav .menu-items {
+    display: flex;
+    align-items: center;
+    background: #EEE;
+    list-style: none;
+    
+    
+  }
+  .desktop-nav .menu-items li {
+    margin: 0 20px;
+  }
+  .desktop-nav .menu-items li a {
+    text-decoration: none;
+    color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  position: relative;
+  }
+  .desktop-nav .menu-items li a:active
+  {
+    color: #ff5300;
+    text-decoration: underline;
+    text-decoration-color:#ff5300;
+    text-decoration-thickness:3px;
+  }
+  .desktop-nav .menu-items li a:hover
+  {
+    color: #ff5300;
+    text-decoration: underline;
+    text-decoration-color:#ff5300;
+    text-decoration-thickness:3px;
+  }
+  #s
+  {
+    color:white;
+    font-weight:normal;
+  }
+
+  .hero-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    
+  }
+  .hero-container .left p {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .hero-container .left h1{
+    font-size: 55px;
+    padding-bottom: 15px;
+  }
+  .hero-container .right{
+    background-size: cover;
+    align-items: right;
+    padding-bottom: 60px;
+  }
+  .HomeC{
+    color: var(--red-color);
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 25%;
+      max-width: 25%;
+    }
+    
+    .column img {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    .bt
+    {
+      background: var(--red-color);
+      padding: 14px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      color: var(--light-color);
+    }
+    .em{
+      width: 30%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+
+    }
+    .button1 {
+      padding: 12px 26px;
+      background-color: white; 
+      color:var(--red-color); 
+      border: 2px solid var(--red-color);
+      text-decoration:none;
+    }
+    .aligned {
+      display: flex;
+      padding-top: 30px;
+      align-items: top;
+      flex: 100%;
+      max-width: 100%;
+    }
+    .vl {
+      border-left: 1px solid black;
+      height: 150px;
+      opacity: 0.1;
+      padding-left: 30px;
+    }
+    .v3
+    {
+      border-bottom: 1px solid black;
+      height: 50px;
+      opacity: 0.1;
+    }
+    .v2 {
+      border-left: 5px solid var(--red-color);
+      height: 50px;
+    }
+    footer {
+      color: #000;
+      margin-top: 10px;
+      justify-content:center;
+      align-items:center;
+      
+    }
+      footer a {
+        color: #000;
+        text-decoration: none;
+      }
+      
+      footer a:hover {
+        text-decoration: underline;
+      }
+      .footer-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 32px 0;
+      }
+      
+      .footer-container .logo {
+        align-items: left;
+      }
+      .footer-container ul {
+        margin-top: 30px;
+        padding: 0;
+        list-style: none;
+      }
+        .footer-container ul li {
+          margin: 16px 0;
+        }
+        .cs {
+          max-width:100%;
+          height:auto;
+          border-radius: 50%;
+        }
+        .hero2{
+          position: absolute;
+          height: 970px;
+          width: 2067px;
+          margin-left: -500px;
+          margin-top: -100px;
+          background:#EEE;
+          z-index: -2;
+        }
+        .hero3{
+          position: absolute;
+          height: 950px;
+          margin-top: -170px;
+          width: 1250px;
+          margin-left: -50px;
+          background:white;
+          border-radius: 10px;
+          box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+          z-index: -1;
+        }
+
+
+    
